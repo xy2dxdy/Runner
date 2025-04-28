@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ccb7f40cf2a884cab654ace33c3ee3, type: 3}
+  m_Name: third
+  m_EditorClassIdentifier: 
+  planetName: third
+  planetSprite: {fileID: 1806353368, guid: 7ccf9030079a6174b99f4c056e74eff5, type: 3}
+  chunkPrefabs:
+  - {fileID: 1768129289797946023, guid: 5038a787580dc844ea717e40320c4d75, type: 3}
+  obstacles:
+  - {fileID: 3853624691224407917, guid: d6f5ad3443c77c743a7d7dfb25716585, type: 3}
+  - {fileID: 7833301355838515861, guid: f6df7baf81ba3c04abf78e29e2348ce2, type: 3}
+  bonuses:
+  - {fileID: 4642192379353148136, guid: 3fdaaeff54eb0b74baeae9ebbc213952, type: 3}
+  - {fileID: 8453307981960924855, guid: 87a2976a1652dd9468b8caf035a4998a, type: 3}
+  - {fileID: 7682223424312555969, guid: 933b256b31eeb224fb118493623c6e5d, type: 3}
+  - {fileID: 2760994606996024305, guid: 9e5b4576db9ea2146b98e4448e2c3446, type: 3}
+  coins:
+  - {fileID: 5455002412161898693, guid: 90f686c1ba5090445a040a4a0b66f9a6, type: 3}
+  chunkSize: 50
+  numObstacles: 10
+  numBonuses: 5
+  numCoins: 5
+  requiredCoins: 100
+  plasmaReward: 10
